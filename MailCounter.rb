@@ -30,11 +30,10 @@ def main()
 	mbox.each_port do |port|
 		mail = TMail::Mail.new(port)
 		puts mail.subject
-
-    #puts mail["x-avenger"]
-    #mail.each_pair{|h,v|
-    #	puts h
-    #}
+		#puts mail["x-avenger"]
+		#mail.each_pair{|h,v|
+		#	puts h
+		#}
 		count += 1
 
 	end
